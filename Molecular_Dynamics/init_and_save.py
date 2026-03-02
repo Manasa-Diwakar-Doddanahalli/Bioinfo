@@ -1,3 +1,5 @@
+from numpy import *
+import math
 
 def rotation_matrix(alfa):
     return matrix([[round(math.cos(alfa)),     round(-math.sin(alfa))],

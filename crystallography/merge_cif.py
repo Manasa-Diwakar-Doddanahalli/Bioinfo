@@ -16,7 +16,7 @@ this program binds them to only one block named data_merged.
 For more information obout CIF format see:
 http://www.iucr.org/__data/iucr/cif/standard/cifstd1.html"""
 
-epilog = u"merge_cif.py Copyright (C) 2013 Katarzyna Wręczycka"
+epilog = u"merge_cif.py Copyright (C) Manasa Diwakar Doddanahalli"
 
 help_interactive = "If not provided will be asked for interactively."
 
@@ -155,17 +155,17 @@ def merge_and_save(ref, exp, out):
     
     w = []
     for i in ref:
-      if i[0]!="loop_":
-	outfile.write("".join(r[i[0]]))
-      else:
-	outfile.write("".join(i[1]))
-      w.append(i[0])
+        if i[0]!="loop_":
+            outfile.write("".join(r[i[0]]))
+        else:
+            outfile.write("".join(i[1]))
+        w.append(i[0])
       
     for i in exp:
-      if i[0]=="loop_":
-	outfile.write("\n"+"".join(i[1]))
-      elif i[0]!="loop_" and i[0] not in w:
-	outfile.write("".join(i[1]))
+        if i[0]=="loop_":
+            outfile.write("\n"+"".join(i[1]))
+        elif i[0]!="loop_" and i[0] not in w:
+            outfile.write("".join(i[1]))
 	
     outfile.close()
 

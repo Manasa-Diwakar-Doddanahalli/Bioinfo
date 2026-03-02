@@ -87,7 +87,7 @@ The mRNA_Markup was tested only with a local GALAXY version.<br>
 
 <br>
 ********************
-Katarzyna Wręczycka<br>
-email: kw292555@students.mimuw.edu.pl<br>
+Manasa Diwakar Doddanahalli<br>
+email: manasadiwakardoddanahalli@gmail.com<br>
 18.01.2013
 
