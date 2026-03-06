@@ -1,4 +1,4 @@
 Bio_Motif_Ensembl
 =========
 
-Potential regulatory region discovery method implementation that uses the Ensembl public MySQL Servers.
+I developed an algorithm based on Bernoulli distribution to identify conserved noncoding regulatory regions and queried MySQL ENSEMBL Servers.
